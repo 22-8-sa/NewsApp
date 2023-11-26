@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    android:padding="8dp"
+    android:backgroundTint="@color/white"
+    android:elevation="8dp"
+    app:cardCornerRadius="10dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="2dp">
+        
+        <ImageView
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:scaleType="centerCrop"
+            android:id="@+id/articleImage"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:maxLines="3"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:id="@+id/articleTitle"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:id="@+id/articleSource"
+                android:layout_marginBottom="8dp"/>
+
+        </LinearLayout>
+
+        
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
