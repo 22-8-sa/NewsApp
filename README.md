@@ -2,7 +2,7 @@
 
 NewsApp is an Android application developed in Java that aggregates news articles from various sources and utilizes multiple APIs. The app employs the Picasso library for efficient image loading.
 
-https://github.com/22-8-sa/NewsApp/assets/125189374/0d305e20-0618-4716-afcf-6779d16bc6da
+![Demo Video] https://github.com/22-8-sa/NewsApp/assets/125189374/0d305e20-0618-4716-afcf-6779d16bc6da
 
 
 ## Technologies Used
